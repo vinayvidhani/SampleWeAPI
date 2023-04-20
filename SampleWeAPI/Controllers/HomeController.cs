@@ -24,6 +24,7 @@ namespace SampleWeAPI.Controllers
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<Person> Get()
         {
+            // this will return the person list which we have created above
             return _persons;
         }
     }
