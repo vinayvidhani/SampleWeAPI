@@ -8,10 +8,10 @@ namespace SampleWeAPI.Controllers
     {
         private readonly List<Person> _persons = new List<Person>()
         {
-            new Person() { Id= 1, Name = "Vinay"} ,
-            new Person() { Id= 2, Name = "Hridya"},
-            new Person() { Id= 3, Name = "Prisha"},
-            new Person() { Id= 4, Name = "Kavita"}
+            new Person() { Id= 1, Name = "Deepak"} ,
+            new Person() { Id= 2, Name = "Himanshi"},
+            new Person() { Id= 3, Name = "Sweni"},
+            new Person() { Id= 4, Name = "Hakshu"}
         };
 
         private readonly ILogger<HomeController> _logger;
