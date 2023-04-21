@@ -25,6 +25,7 @@ namespace SampleWeAPI.Controllers
         public IEnumerable<Person> Get()
         {
             // this will return the person list which we have created above
+            // added another comment
             return _persons;
         }
     }
